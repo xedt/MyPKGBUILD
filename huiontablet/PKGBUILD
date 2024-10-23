@@ -1,12 +1,12 @@
 # Maintainer: Wai <waicool20@gmail.com>
 pkgname=huiontablet
-pkgver=v15.0.0.163
+pkgver=v15.0.0.164
 pkgrel=1
 pkgdesc="Official Huion tablet drivers"
 arch=('x86_64')
 url="https://www.huion.com/download/"
 license=('unknown')
-source=("https://driverdl.huion.com/driver/GS1333/HuionTablet_LinuxDriver_v15.0.0.163.x86_64.tar.xz")
+source=("https://driverdl.huion.com/driver/GT1302-1602-1562-2401/HuionTablet_LinuxDriver_v15.0.0.164.x86_64.tar.xz")
 md5sums=("SKIP")
 
 prepare() {
