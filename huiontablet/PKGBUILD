@@ -27,7 +27,7 @@ prepare() {
   sed -E -i "/#Copy config files/Q" install.sh
 
   # Remove the line after "#Uninstall HUION driver first" to stop running uninstall.sh
-  sed -E -i "/#Uninstall HUION driver first/{n;d;}" install.sh
+  sed -E -i "/#Uninstall HUION driver first/{N;d;}" install.sh
 }
 
 package() {
